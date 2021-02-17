@@ -47,31 +47,31 @@ struct MessageTexte: View {
                 .alert(isPresented: $montreAlerte, content: {
                     Alert(title: Text("alert"))
                 })
-            // montrer genetre A propos
-            if montrerFenetreAPropos {
-                ZStack(alignment: .center) {
-                    FenetreMenu(largeurFenetre: 270, hauteurFenetre: 130)
-                    VStack {
-                        HStack {
-                            Image(Ressources.images.titastus.rawValue)
-                                .resizable()
-                                .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .aspectRatio(contentMode: .fit)
-                                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                            Button(action: {
-                                montrerSafari.toggle()
-                            }, label: {
-                                Text("www.titastus.com")
-                            }) .sheet(isPresented: $montrerSafari) {
-                                ControleurSafari(url: URL(string: self.urlString)!)
-                                .padding()
-                            }
-                        }
-                        
-                        BoutonFermeture(fermetureFenetre: $montrerFenetreAPropos, couleurFond: .black, couleurTexte: .red)
-                    }
-                }
-            } // fin de if 
+//            // montrer genetre A propos
+//            if montrerFenetreAPropos {
+//                ZStack(alignment: .center) {
+//                    FenetreMenu(largeurFenetre: 270, hauteurFenetre: 130)
+//                    VStack {
+//                        HStack {
+//                            Image(Ressources.images.titastus.rawValue)
+//                                .resizable()
+//                                .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                                .aspectRatio(contentMode: .fit)
+//                                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+//                            Button(action: {
+//                                montrerSafari.toggle()
+//                            }, label: {
+//                                Text("www.titastus.com")
+//                            }) .sheet(isPresented: $montrerSafari) {
+//                                ControleurSafari(url: URL(string: self.urlString)!)
+//                                .padding()
+//                            }
+//                        }
+//                        
+//                        BoutonFermeture(fermetureFenetre: $montrerFenetreAPropos, couleurFond: .black, couleurTexte: .red)
+//                    }
+//                }
+//            } // fin de if 
             Spacer()
                 .toolbar {
                     ToolbarItem(placement: .bottomBar) {
