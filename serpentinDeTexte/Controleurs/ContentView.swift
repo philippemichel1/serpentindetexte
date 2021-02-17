@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var texteSaisie = ""
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            MessageTexte(texteSaisie: $texteSaisie)
+            
+         }
     }
 }
 

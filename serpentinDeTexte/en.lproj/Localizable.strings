@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  serpentinDeTexte
+
+  Created by Philippe MICHEL on 17/02/2021.
+  
+*/
+"title" = "example of the coil";
+"userText" = "text to enter";
+"serpentineButton" = "Display the coil";
+"alert" = "the input field is empty";
+"instructionButton" = "Instruction";
+"instruction" = "
+- Entering text in the home screen
+- Click on the link to display the coil
+- move the coil with your finger on your device";

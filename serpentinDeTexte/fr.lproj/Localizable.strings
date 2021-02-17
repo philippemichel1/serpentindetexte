@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  serpentinDeTexte
+
+  Created by Philippe MICHEL on 17/02/2021.
+  
+*/
+"title" = "exemple du serpentin";
+"userText" = "Saisir du texte";
+"serpentineButton" = "Afficher le serpentin";
+"instructionButton" = "Mode d'emploi";
+"alert" = "Le champs de saisie est vide";
+"instruction" = "
+- Saisir un texte dans l'écran d'accueil
+- Cliquez sur le lien pour afficher le serpentin
+- faites bouger le serpentin avec votre doigt sur votre appareil
+";
