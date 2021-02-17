@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37884F2025DD620D00BF479E /* BoutonFermeture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37884F1F25DD620D00BF479E /* BoutonFermeture.swift */; };
+		37884F2325DD63B400BF479E /* ControleurSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37884F2225DD63B400BF479E /* ControleurSafari.swift */; };
+		37884F2625DD695F00BF479E /* FenetreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37884F2525DD695F00BF479E /* FenetreMenu.swift */; };
 		37E3925B25DD4F2700C0FB36 /* serpentinDeTexteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E3925A25DD4F2700C0FB36 /* serpentinDeTexteApp.swift */; };
 		37E3925D25DD4F2700C0FB36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E3925C25DD4F2700C0FB36 /* ContentView.swift */; };
 		37E3925F25DD4F2800C0FB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E3925E25DD4F2800C0FB36 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37884F1F25DD620D00BF479E /* BoutonFermeture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonFermeture.swift; sourceTree = "<group>"; };
+		37884F2225DD63B400BF479E /* ControleurSafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControleurSafari.swift; sourceTree = "<group>"; };
+		37884F2525DD695F00BF479E /* FenetreMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenetreMenu.swift; sourceTree = "<group>"; };
 		37E3925725DD4F2700C0FB36 /* serpentinDeTexte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serpentinDeTexte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E3925A25DD4F2700C0FB36 /* serpentinDeTexteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serpentinDeTexteApp.swift; sourceTree = "<group>"; };
 		37E3925C25DD4F2700C0FB36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				37E3925C25DD4F2700C0FB36 /* ContentView.swift */,
+				37884F2225DD63B400BF479E /* ControleurSafari.swift */,
 			);
 			path = Controleurs;
 			sourceTree = "<group>";
@@ -103,8 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				37E3927125DD50E700C0FB36 /* Instructions.swift */,
+				37884F2525DD695F00BF479E /* FenetreMenu.swift */,
 				37E3927525DD518500C0FB36 /* MessageTexte.swift */,
 				37E3927825DD525200C0FB36 /* Serpentin.swift */,
+				37884F1F25DD620D00BF479E /* BoutonFermeture.swift */,
 			);
 			path = Vues;
 			sourceTree = "<group>";
@@ -181,10 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E3927925DD525200C0FB36 /* Serpentin.swift in Sources */,
+				37884F2025DD620D00BF479E /* BoutonFermeture.swift in Sources */,
 				37E3926C25DD500E00C0FB36 /* Ressources.swift in Sources */,
 				37E3927625DD518500C0FB36 /* MessageTexte.swift in Sources */,
+				37884F2325DD63B400BF479E /* ControleurSafari.swift in Sources */,
 				37E3925D25DD4F2700C0FB36 /* ContentView.swift in Sources */,
 				37E3927225DD50E700C0FB36 /* Instructions.swift in Sources */,
+				37884F2625DD695F00BF479E /* FenetreMenu.swift in Sources */,
 				37E3925B25DD4F2700C0FB36 /* serpentinDeTexteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
