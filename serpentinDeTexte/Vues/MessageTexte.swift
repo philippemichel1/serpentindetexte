@@ -47,7 +47,7 @@ struct MessageTexte: View {
                 .alert(isPresented: $montreAlerte, content: {
                     Alert(title: Text("alert"))
                 })
-//            // montrer genetre A propos
+//            // montrer genetre A propos xx
 //            if montrerFenetreAPropos {
 //                ZStack(alignment: .center) {
 //                    FenetreMenu(largeurFenetre: 270, hauteurFenetre: 130)
