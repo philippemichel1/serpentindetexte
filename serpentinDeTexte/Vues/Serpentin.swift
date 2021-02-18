@@ -16,7 +16,6 @@ struct Serpentin: View {
     let listeCouleur:[Color] = [.black,.gray,.green,.orange,.pink,.red,.purple,.yellow]
     @Environment(\.presentationMode) var fermerFenetreSnake
     
-    
     var body: some View {
         VStack {
             Button(action: {
