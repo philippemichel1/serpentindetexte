@@ -62,7 +62,7 @@ struct ContentView: View {
                                         .padding()
                                 }
                             }
-                            BoutonFermeture(fermetureFenetre: $montrerFenetreAPropos, couleurFond: .black, couleurTexte: .red)
+                            BoutonFermeture(fermetureFenetre: $montrerFenetreAPropos, couleurFond: .gray, couleurTexte: .red)
                         }
                     }
                 } // fin de if

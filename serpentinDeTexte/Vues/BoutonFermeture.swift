@@ -20,7 +20,7 @@ struct BoutonFermeture: View {
                 .background(couleurFond)
                 .foregroundColor(couleurTexte)
                 .cornerRadius(10)
-                .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 2, x: 2, y: 2)
+                .shadow(color: .black, radius: 2, x: 2, y: 2)
         })
     }
 }
