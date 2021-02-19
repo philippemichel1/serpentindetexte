@@ -15,6 +15,7 @@ struct Instructions: View {
                 fermerInstruction.wrappedValue.dismiss()
             }, label: {
                 Image(systemName: Ressources.images.fermerCroix.rawValue)
+                    .imageScale(.large)
             })
             Spacer()
             Text("instruction")
