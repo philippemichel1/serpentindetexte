@@ -15,6 +15,7 @@ struct MessageTexte: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text("title")
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .padding()
@@ -46,6 +47,10 @@ struct MessageTexte: View {
                 })// fin bouton
             Spacer()
         }
+        //degradee
+        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .background(LinearGradient(gradient: Gradient(colors: [Color(.blue), Color(.red)]), startPoint: .topLeading, endPoint: .bottomTrailing))
+        .edgesIgnoringSafeArea(.top)
     }
     //Vérification du textField il ne doit pas etre vide.
     func verificationSaisie() {
