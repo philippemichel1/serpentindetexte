@@ -54,7 +54,7 @@ struct Serpentin: View {
     }
     //Retourne un element aléatoire du tableau de couleur
     func retourneAleatoire() -> Int {
-        return Int.random(in: 0...listeCouleur.count)
+        return Int.random(in: 0...listeCouleur.count - 1)
     }
 }
 
